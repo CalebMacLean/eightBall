@@ -1,0 +1,53 @@
+/* Eight Ball Styles */
+.EightBall {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+  width: 20rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  position: relative;
+}
+
+/* color classes */
+.black {
+  background-color: black;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.goldenrod {
+  background-color: goldenrod;
+  color: black;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+/* message styles */
+.EightBall-msg {
+  width: 80%;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* reset button styles */
+.EightBall-btn {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
